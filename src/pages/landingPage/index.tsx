@@ -1,12 +1,14 @@
+import React from "react";
+import FirstSection from "../../components/firstSection";
+import Header from "../../components/header";
 
-import { useState } from 'react'
-import * as S from './style'
+import * as S from "./style";
 
-function LandingPage() {
-    
-    return (
-        <h1>Eai caralho</h1>
-    )
+export default function LandingPage() {
+  return (
+    <>
+      <Header />
+      <FirstSection />
+    </>
+  );
 }
-
-export default LandingPage()

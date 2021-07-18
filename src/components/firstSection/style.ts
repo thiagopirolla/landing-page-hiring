@@ -25,6 +25,13 @@ export const description = styled.p`
   margin-right: auto;
 `;
 
+export const Image = styled.div`
+  & > svg {
+    width: 100%;
+  }
+
+`
+
 export const form = styled.div`
 
 `

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+
   padding: 15px 30px 15px 30px;
   background-color: #282828;
-  align-items: center;
+  
 `;
 
 export const Title = styled.p`
@@ -26,9 +27,11 @@ export const description = styled.p`
 `;
 
 export const Image = styled.div`
-  & > svg {
-    width: 100%;
-  }
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center
+
 
 `
 
@@ -37,3 +40,4 @@ export const form = styled.div`
 `
 
 // const inputForm = styled.
+

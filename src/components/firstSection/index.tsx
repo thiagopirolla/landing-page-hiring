@@ -14,7 +14,7 @@ export default function FirstSection() {
       </S.description>
 
       <Form/>
-      <S.Image><Imagem2 style={{width:"600", height:"460"}}/></S.Image>
+      <S.Image><Imagem2 style={{maxWidth:"600px", width:"100%", height:"100%"}}/></S.Image>
       
     </S.Container>
   );

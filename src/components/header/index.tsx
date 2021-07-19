@@ -7,10 +7,10 @@ export default function Header() {
       <S.Logo>Markethi</S.Logo>
 
       <S.NavbarRightElements>
-        <a href="">
+        <a href="www.google.com">
           <b>Promoções</b>
         </a>
-        <a href="">
+        <a href="www.google.com">
           <S.NavbarButton>Inscreva-se</S.NavbarButton>
         </a>
       </S.NavbarRightElements>

@@ -20,7 +20,7 @@ export const description = styled.p`
   color: #fff;
   font-size: 1.3em;
   text-align: center;
-  width: 25em;
+  width: 75%;
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;

@@ -17,6 +17,7 @@ export const NavbarButton = styled.b`
   background-color: #fff;
   color: #282828 !important;
   padding: 9px;
+  
 
 `;
 
@@ -27,6 +28,9 @@ export const NavbarRightElements = styled.div`
   & > a {
     margin-left: 30px;
     text-decoration: none;
+  }
+  @media (max-width: 409px) {
+    display: none;
   }
 
   & > a > b {

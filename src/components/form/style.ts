@@ -10,6 +10,11 @@ align-items: center
 `
 
 export const Form = styled.form`
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: space-around;
+flex-wrap: wrap;
 &>input{
     padding: 10px;
     border-radius:20px;

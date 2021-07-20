@@ -10,7 +10,7 @@ export default function FirstSection() {
     <S.Container>
       <S.Title>Promoções de Black Friday!!!!</S.Title>
       <S.description>
-        Nessa Black Friday, não fique de fora das promoções mais em conta desse país!!
+        Nesta Black Friday, não fique de fora das promoções mais em conta do país!!
       </S.description>
 
       <Form/>

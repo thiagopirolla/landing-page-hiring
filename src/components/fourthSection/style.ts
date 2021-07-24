@@ -3,9 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 15px 30px 15px 30px;
-  background-color: #fff;
-
-  
+  background-color: #FAA916;
 `;
 
 export const Content = styled.div`
@@ -13,7 +11,7 @@ export const Content = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
+  width: 100%;
   
 `
 
@@ -36,7 +34,6 @@ export const Title = styled.p`
 
 export const CardSection = styled.div`
 display: flex;
-height: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;

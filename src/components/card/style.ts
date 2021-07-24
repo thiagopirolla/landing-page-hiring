@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const CardInfo = styled.div`
 position: absolute;
 text-align: center;
+
 bottom: 0;
 opacity:0;
 width: 100%;
@@ -23,11 +24,13 @@ padding: 10px 45px;
 text-decoration: none;
 transition: 0.3s ease;
 margin-bottom: 30px;
+border: 1px solid rgba(255, 255, 255, 0);
 `
 
 export const Card = styled.div`
 margin: 15px 30px 15px 30px;
 display: flex;
+
 justify-content: center;
 align-items: center;
 flex-direction: column;
@@ -38,6 +41,7 @@ background: #fff;
 border-radius: 20px;
 position: relative;
 box-shadow: 5px 20px 30px rgba(0,0,0,0.4);
+height: 100%;
 
 & img {
   width: 100%;
@@ -48,13 +52,12 @@ box-shadow: 5px 20px 30px rgba(0,0,0,0.4);
 background: #222;
 
 & img{
-  transform: scale(1.1);
   transform: translateY(-80px);
 }
 &:hover ${CardInfo}{
 
 opacity: 1;
-transform: translateY(-40px);
+transform: translateY(-42px);
 }
 
 &:hover ${CardButton}{

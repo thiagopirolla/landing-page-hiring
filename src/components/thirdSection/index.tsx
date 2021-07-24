@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from "./style";
 import appleWatch from './../../assets/appleWatch.png'
+import tenisNike from './../../assets/tenisNike.png'
 import Card from "../card";
 
 
@@ -15,7 +16,7 @@ export default function ThirdSection() {
                 </S.TextSection>
                 <S.CardSection>
                 <Card img={appleWatch} productName="Apple Watch" category="Esportes" description="Esse é um relógio legal"/>
-                <Card img={appleWatch} productName="Apple Watch" category="Esportes" description="Esse é um relógio legal"/>
+                <Card img={tenisNike} productName="Apple Watch" category="Esportes" description="Esse é um relógio legal"/>
                 <Card img={appleWatch} productName="Apple Watch" category="Esportes" description="Esse é um relógio legal"/>
                 <Card img={appleWatch} productName="Apple Watch" category="Esportes" description="Esse é um relógio legal"/>
                 </S.CardSection>

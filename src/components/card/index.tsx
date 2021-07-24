@@ -13,7 +13,10 @@ interface CardProps {
 export default function Card({img, productName, category, description}: CardProps) {
   return (
     <S.Card>
-      <img src={img} alt="Apple Watch"  />
+      <div style={{width:"224px", height:"264.98px"}}  >
+      <img src={img} alt="Apple Watch" />
+      </div>
+      
       <S.CardInfo>
         <S.CardProductName>{productName}</S.CardProductName>
         <S.CardCategory>{category}</S.CardCategory>

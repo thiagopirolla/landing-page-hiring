@@ -45,14 +45,14 @@ height: 100%;
 
 & img {
   width: 100%;
-  transition: 0.7s;
+  transition: 1.1s;
 }
 
 &:hover{
 background: #222;
 
 & img{
-  transform: translateY(-80px);
+  transform: translateY(-60px);
 }
 &:hover ${CardInfo}{
 
@@ -87,5 +87,13 @@ margin: 0;
 export const CardDescription = styled.p`
 font-size: 1rem;
 margin: 0;
+`
+
+export const ImageCard = styled.div`
+width:224px; 
+height:264.98px;
+display:flex;
+align-items: center;
+justify-content: center;
 `
 

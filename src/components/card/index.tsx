@@ -7,15 +7,17 @@ interface CardProps {
   productName: string
   category: string
   description: string
+  imgSizePercent: string
 
 }
 
-export default function Card({img, productName, category, description}: CardProps) {
+export default function Card({img, productName, category, description, imgSizePercent}: CardProps) {
+
   return (
     <S.Card>
-      <div style={{width:"224px", height:"264.98px"}}  >
-      <img src={img} alt="Apple Watch" />
-      </div>
+      <S.ImageCard  >
+      <img src={img} alt="Apple Watch" style={{width: imgSizePercent}} />
+      </S.ImageCard>
       
       <S.CardInfo>
         <S.CardProductName>{productName}</S.CardProductName>

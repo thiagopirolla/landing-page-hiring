@@ -15,8 +15,9 @@ transition: 0.3s;
 `
 
 export const CardButton = styled.a`
-background: #fff;
+background: #FAA916;
 color: #222;
+font-weight: 700;
 border-radius: 35px;
 padding: 10px 45px;
 text-decoration: none;

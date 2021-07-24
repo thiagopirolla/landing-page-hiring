@@ -20,7 +20,8 @@ export default function Card({img, productName, category, description}: CardProp
         <S.CardDescription>{description}</S.CardDescription>
         
       </S.CardInfo>
-      <S.CardButton>Compre agora!</S.CardButton>
+      <S.CardButton href="www.google.com">Compre agora!</S.CardButton>
+   
     </S.Card>
   );
 }

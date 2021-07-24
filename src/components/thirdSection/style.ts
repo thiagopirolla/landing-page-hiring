@@ -35,7 +35,7 @@ export const Title = styled.p`
 export const CardSection = styled.div`
 display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 

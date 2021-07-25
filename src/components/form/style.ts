@@ -26,7 +26,7 @@ export const EmailInput = styled.input`
 border: 2px solid #353238;
 margin-right: 8px;
 outline:none;
-&: focus{
+&:focus{
     border-color: #FAA916;
     color: none;
     box-shadow: 0 0 4px 0 #FAA916;
@@ -36,7 +36,8 @@ outline:none;
 export const ButtonInput = styled.input`
 border: 2px solid #353238;
 font-weight: bold;
-&: hover{
+-webkit-appearance: none;
+&:hover{
     background-color: #FAA916;
 }
 `

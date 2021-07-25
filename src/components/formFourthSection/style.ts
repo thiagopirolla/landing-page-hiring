@@ -54,6 +54,7 @@ border: 1px solid #222;
 background-color: #222;
 color: #fff;
 font-weight: bold;
+-webkit-appearance: none;
 &:hover{
     background-color: #222;
     color: #fff

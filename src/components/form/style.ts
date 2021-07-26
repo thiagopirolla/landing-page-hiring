@@ -36,6 +36,7 @@ outline:none;
 export const ButtonInput = styled.input`
 border: 2px solid #353238;
 font-weight: bold;
+cursor: pointer;
 -webkit-appearance: none;
 &:hover{
     background-color: #FAA916;

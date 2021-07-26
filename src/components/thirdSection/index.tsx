@@ -10,6 +10,7 @@ import Card from "../card";
 
 
 export default function ThirdSection() {
+    // const [shoppingCart, setShoppingCart] = useState<CardProps[]>([])
     return (
         <S.Container>
             <S.Content>

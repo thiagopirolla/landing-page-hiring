@@ -53,6 +53,7 @@ export const ButtonInput = styled.input`
 border: 1px solid #222;
 background-color: #222;
 color: #fff;
+cursor: pointer;
 font-weight: bold;
 -webkit-appearance: none;
 &:hover{

@@ -15,16 +15,17 @@ background-color: #FAA916;
 transition: 0.3s;
 `
 
-export const CardButton = styled.a`
+export const CardButton = styled.input`
+cursor: pointer;
 background: #FAA916;
 color: #222;
 font-weight: 700;
 border-radius: 35px;
-padding: 10px 45px;
-text-decoration: none;
+padding: 13px 35px;
 transition: 0.3s ease;
 margin-bottom: 30px;
 border: 1px solid rgba(255, 255, 255, 0);
+
 `
 
 export const Card = styled.div`
@@ -65,6 +66,10 @@ transform: translateY(-42px);
   color: #FAA916;
   border: 1px solid #FAA916;
   transform: translateY(20px);
+  &:active{
+  background: #424242;
+  transition: 0s;
+}
 }
 
 }
